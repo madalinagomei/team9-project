@@ -1,15 +1,17 @@
-
 .header .not-modal {
   padding-right: 20px;
+
   @include mq(mobile-only) {
     display: none;
   }
+
   @include mq(tablet) {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 32px;
     min-width: 160px;
   }
+
   @include mq(desktop) {
     order: 1;
     min-width: 159px;
@@ -19,6 +21,7 @@
 
 
 @include mq(desktop) {
+
   .header .modal,
   .hero__button-paragraph {
     display: none;
@@ -30,8 +33,9 @@
   transition-property: color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  
+
 }
+
 .hero__button-list {
   display: flex;
 }
@@ -39,13 +43,14 @@
 
 .hero__button-item:not(:last-child) {
   margin-right: 8px;
+
   @include mq(desktop) {
     margin-right: 12px;
   }
 }
 
 .hero__button-current,
-.hero__button{
+.hero__button {
   border: transparent;
   border-radius: 22px;
   font-family: 'DM Sans', 'Sans-serif';
@@ -53,13 +58,14 @@
   transition-property: background-color;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
-  
+
 
   @include mq(not-desktop) {
     font-size: 8px;
     line-height: calc(10 / 8);
     padding: 5px, 10px;
   }
+
   @include mq(desktop) {
     font-size: 14px;
     line-height: calc(18 / 14);
@@ -67,50 +73,54 @@
   }
 }
 
-.hero__button-current{
-    width: 62px;
-    height: 24px;
-    
+.hero__button-current {
+  width: 62px;
+  height: 24px;
 
-    @include mq(desktop){
-      width: 107px;
+
+  @include mq(desktop) {
+    width: 107px;
     height: 40px;
-    }
+  }
 }
 
-.hero__button{
-    width: 83px;
-    height: 24px;
+.hero__button {
+  width: 83px;
+  height: 24px;
 
-    @include mq(desktop){
-      width: 138px;
+  @include mq(desktop) {
+    width: 138px;
     height: 40px;
-    }
+  }
 }
 
-.hero__button-current{
+.hero__button-current {
   background-color: var(--red-text-color);
 }
-.hero__button-current a{
+
+.hero__button-current a {
   color: var(--white-text-color);
 }
 
 .hero__button {
   background-color: var(--white-text-color);
   color: var(--red-text-color);
+
   &:focus,
   &:hover {
-    
+
     background-color: var(--red-text-color);
 
   }
+
   &:focus .hero__button-link,
   &:hover .hero__button-link {
     color: var(--white-text-color);
     scale: 1.5;
-  
+
   }
 }
+
 @include mq(tablet) {
   .hero__button-paragraph {
     display: flex;
@@ -125,27 +135,31 @@
     transition-property: background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
+
     @include mq(desktop) {
       width: 26px;
       height: 26px;
       left: 229px;
       bottom: 180px;
-      &:hover  {
-          
-          scale: 1.1;
-      
-        }
+
+      &:hover {
+
+        scale: 1.1;
+
+      }
     }
+
     &:hover,
     &:focus {
-      fill:  var(--white-text-color);
+      fill: var(--white-text-color);
       background-color: var(--bgc_second-btn-color);
-          scale: 1.1;
-        
+      scale: 1.1;
+
 
     }
   }
 }
+
 .hero__button-paragraph {
   @include mq(mobile-only) {
     display: none;
@@ -153,4 +167,5 @@
 }
 
 .hero__button-item:hover {
-        scale: 1.12;}
+  scale: 1.12;
+}

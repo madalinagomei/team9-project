@@ -1,0 +1,180 @@
+// READ MORE modal window
+
+// .backdrop {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 101;
+//   width: 100vw;
+//   height: 100vh;
+//   background-color: rgba(0, 0, 0, 0.2);
+//   overflow-y: scroll;
+// }
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-read-more {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: calc(100% - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+  width: 450px;
+  border-radius: 18px;
+  background: linear-gradient(to left, #ee9ca7, #ffdde1);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
+
+    background-image: url(../images/modal-windows/read-more.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%);
+  }
+}
+.prod-ice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 240px;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: calc(100% - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 450px;
+  border-radius: 13px;
+  background-image: url(../images/modal-windows/pink.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+
+
+.prod-milk {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 240px;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: calc(100% - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: 'DM Sans', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 40px;
+  width: 450px;
+  border-radius: 13px;
+  background: linear-gradient(-135deg, #F3EEBD 0%, #A7F5A6 100%);
+  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1), visibility 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-image: url(../images/modal-windows/shake-green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 250ms var(--transition-timing);
+}
+
+.prod-coffee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 240px;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  max-width: calc(100% - 30px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: 'DM Sans', sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 40px;
+  width: 450px;
+  border-radius: 13px;
+  background: linear-gradient(180deg, #E9BA42 16.15%, #F6FEDF 100%);
+  background-image: url(../images/modal-windows/milk-yellow.jpg);
+
+  transition: transform 250ms var(--transition-timing);
+}
+
+.modal-read-more_description-text {
+  font-style: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.12;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(83, 45, 83);
+  background-color: rgba(255, 255, 255, 0.281) ;
+}
+
+.modal-read-more_description-text2 {
+  font-style: 'DM Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.12;
+  
+  color: rgb(68, 12, 68);
+  // background-color: rgba(255, 255, 255, 0.281);
+}
+
+
+.modal-read-more__icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ee9ca7;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  padding: 0;
+  cursor: pointer;
+
+  &:hover, &:focus {
+    background-color: #e4f5a6;
+  }
+}
+
+.modal-read-more__close {
+  border: transparent;
+  background-color: transparent;
+}
+
+.hidden-button {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.modal-products_milkshakes-text,
+.modal-products_icecoffee-text, 
+.modal-products_icecream-text {
+  font-style: 'DM Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.12;
+  text-align: center;
+}
+
+
+
+
+
