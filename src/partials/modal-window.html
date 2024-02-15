@@ -1,0 +1,126 @@
+<!-- BUY NOW -->
+
+<!-- Fundal -->
+<div class="buy-backdrop is-hidden modal not-modal" data-modal data-modal2>
+  <!-- Fereastra modală -->
+  <div class="buy-modal">
+    <!-- Buton de închidere a ferestrei modal -->
+    <button class="buy-modal__close-btn" data-modal-close aria-label="Close modal">
+      <svg class="buy-modal__close-icon" width="14" height="14">
+        <use href="./images/modal-windows/header.svg#close-icon"></use>
+      </svg>
+    </button>
+
+    <!-- Formular -->
+    <form action="#" name="buy-modal__form">
+      <!-- Antet formular -->
+      <h2 class="buy-modal__title section-title">Syper pyper Ice <br> Cream</h2>
+
+      <!-- Casete de selectare -->
+      <ul class="buy-modal__list">
+        <li class="buy-modal__item">
+          <picture>
+            <source srcset="
+                ./images/modal-windows/products-icecream-mob@1x.png 1x,
+                ./images/modal-windows/products-icecream-mob@1x.png 2x
+              " />
+
+            <img src="./images/modal-windows/products-icecream-mob@1x.png" alt="Icecream" class="checkbox__img" />
+          </picture>
+          <div class="how-many">
+            <label for="user-comment" class="many"></label>
+            <input type="number" id="tentacles" name="tentacles" min="1" max="100" placeholder="0" />
+          </div>
+        </li>
+        <li class="buy-modal__item">
+          <picture>
+            <source srcset="
+                ./images/modal-windows/products-icecoffee-mob@1x.png 1x,
+                ./images/modal-windows/products-icecoffee-mob@2x.png 2x
+              " />
+
+            <img src="./images/modal-windows/products-icecoffee-mob@1x.png" alt="Icecoffee" class="checkbox__img" />
+          </picture>
+          <div class="how-many">
+            <label for="user-comment" class="many"></label>
+            <input type="number" id="tentacles" name="tentacles" min="1" max="100" placeholder="0" />
+          </div>
+        </li>
+        <li class="buy-modal__item">
+          <picture>
+            <source srcset="
+                ./images/modal-windows/products-iceshakes-mob@1x.png 1x,
+                ./images/modal-windows/products-iceshakes-mob@2x.png 2x
+              " />
+            <img src="./images/modal-windows/products-iceshakes-mob@1x.png" alt="Iceshakes" class="checkbox__img" />
+          </picture>
+          <div class="how-many">
+            <label for="user-comment" class="many"></label>
+            <input type="number" id="tentacles" name="tentacles" min="1" max="100" placeholder="0" />
+        </li>
+      </ul>
+
+      <!-- Nume-->
+      <label class="modal-form__label modal-form__label--top">
+        <span class="modal-form__text">Name</span>
+        <input type="text" name="user-name" class="modal-form__input" />
+      </label>
+
+      <!-- telefon -->
+      <label class="modal-form__label">
+        <span class="modal-form__text">Phone</span>
+        <input type="tel" name="user-phone" class="modal-form__input" required />
+      </label>
+      <!-- email -->
+      <label class="modal-form__label">
+        <span class="modal-form__text">Mail</span>
+        <input type="email" name="user-email" id="user-email" class="modal-form__input" required />
+      </label>
+      <!-- comment -->
+      <div class="comment-container">
+        <label for="user-comment" class="contact-form-label"></label>
+        <textarea name="user-comment" id="user-comment" class="contact-form-comment"
+          placeholder="write something and maybe we read this"></textarea>
+      </div>
+      <!-- button i want -->
+      <button class="first-btn send-btn" type="submit">
+        <span class="first-btn__start">I want that!</span>
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- HEADER -->
+<div class="header__mob-menu js-menu-container">
+  <div class="header__mob-menu-box">
+    <button class="mob-menu__close-btn js-close-menu" aria-label="Close mobile menu">
+      <svg class="mob-menu-btn__icon" width="14" height="14">
+        <use href="./images/modal-windows/header.svg#close-icon"></use>
+      </svg>
+    </button>
+    <button class="first-btn buy-btn-mob" type="button" data-modal-open data-modal2-open>
+      <span class="first-btn__start">Buy now</span>
+      <img src="./images/modal-windows/btn-corner.svg" xmlns="http://www.w3.org/2000/svg" alt="arrow" width="6"
+        height="10" class="first-btn__finish" />
+    </button>
+    <nav class="header__mob-nav">
+      <ul class="header__mob-link-list">
+        <li class="header__mob-item">
+          <a href="#hero" class="header__mob-link current-link">Home</a>
+        </li>
+        <li class="header__mob-item">
+          <a href="#about" class="header__mob-link">About us</a>
+        </li>
+        <li class="header__mob-item">
+          <a href="#about" class="header__mob-link">How its made?</a>
+        </li>
+        <li class="header__mob-item">
+          <a href="#products" class="header__mob-link">Our products</a>
+        </li>
+        <li class="header__mob-item">
+          <a href="#contacts" class="header__mob-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

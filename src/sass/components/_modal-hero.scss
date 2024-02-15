@@ -1,0 +1,76 @@
+.hero-modal {
+    position: absolute;
+    display: inline-block;
+    width: 80vw;
+    min-height: 500px;
+    top: 50%;
+    left: 50%;
+    padding: 20px 20px;
+    background:#fff;
+    transform: scale(1) translate(-50%, -50%);
+    transition: transform 250ms;
+    @media screen and (min-width: 320px) {
+      width: 95vw;
+      min-height: 500px;
+    }
+    @media screen and (min-width: 480px) {
+      width: 440px;
+      min-height: 500px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 700px;
+      min-height: 509px;
+      animation: background 5000ms linear 2s infinite alternate;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+  
+    }
+    @media screen and (min-width: 1280px) {
+      width: 1000px;
+      height: 630px;
+    }
+}
+
+
+.hero-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.hero-modal-close__icon {
+    position: relative;
+    top: 2px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    }
+
+
+
+.hero-modal-close:hover,
+.hero-modal-close:focus {
+    background-color: #df6d88;
+    cursor: pointer;
+}
+
+.hero-form {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height: 95%;
+    @media screen and (min-width: 480px) {
+      width: 95%;
+      padding: 5px 5px;
+    }
+  }
+
+
