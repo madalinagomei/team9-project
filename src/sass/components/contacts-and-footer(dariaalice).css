@@ -1,21 +1,3 @@
-:root {
-  --font-main: "Titan One", sans-serif;
-  --font-secondary: "DM Sans", sans-serif;
-  --cream-text-color: #ffa5ba;
-  --red-text-color: #d41443;
-  --products-first-color: #ffb8ca;
-  --yellow-color: #f0d1a5;
-  --green-color: #c2e297;
-  --white-text-color: #fff;
-  --light-pink-color: #fff5f6;
-  --black-text-color: #000;
-  --light-gray-color: #e1e1e1;
-  --gray-text-color: #907e82;
-  --icon-color: #fea5bb;
-  --footer-btn-red-color: #d41342;
-  --modal-color: #e17992;
-}
-
 .containerz {
   width: 100%;
   margin: auto;
