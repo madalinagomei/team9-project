@@ -671,7 +671,7 @@
   }
 
   .footer-title-part:hover .made {
-    transform: translate(-190px, 25px);
+    transform: translate(-190px, 32px);
     color: var(--red-text-color);
   }
 
@@ -679,6 +679,11 @@
     font-size: 58px;
     letter-spacing: 3.48px;
     padding-top: 10px;
+    transition: transform 0.8s ease-in-out;
+  }
+
+  .footer-title-part:hover .footer-second-title {
+    transform: translateY(10px);
   }
 
   .social-media-footer-item {
