@@ -1,4 +1,5 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@import './components/contacts-and-footer\(dariaalice\).css';
 :root {
   --white-text-color: #ffffff;
   --red-text-color: #d41443;
@@ -230,10 +231,10 @@ a:-webkit-any-link {
 
 .modal-content-buy {
   border-radius: 4px;
-  background: #ffb8ca;
+  background: var(--products-first-color);
   margin: 0 auto;
-  max-width: 528px;
-  border: 3px solid #d41443;
+  max-width: 428px;
+  border: 3px solid var(--red-text-color);
   border-radius: 30px;
   position: relative;
 }
@@ -260,7 +261,7 @@ a:-webkit-any-link {
 }
 
 .close-x {
-  color: #d41443;
+  color: var(--red-text-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -287,7 +288,7 @@ a:-webkit-any-link {
   padding: 12px 16px;
   border-radius: 50px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  color: #d41443;
+  color: var(--red-text-color);
   font-family: "DM Sans", "sans-serif";
 }
 
@@ -299,23 +300,23 @@ a:-webkit-any-link {
 
 .input-modal-buy:hover,
 .input-modal-buy:focus {
-  border: 1px solid #ffb8ca;
+  border: 1px solid var(--products-first-color);
   outline-style: none;
   box-shadow: none;
 }
 
 .input-modal-buy:hover::-moz-placeholder,
 .input-modal-buy:focus::-moz-placeholder {
-  color: #ffb8ca;
+  color: var(--products-first-color);
 }
 
 .input-modal-buy:hover::-moz-placeholder, .input-modal-buy:focus::-moz-placeholder {
-  color: #ffb8ca;
+  color: var(--products-first-color);
 }
 
 .input-modal-buy:hover::placeholder,
 .input-modal-buy:focus::placeholder {
-  color: #ffb8ca;
+  color: var(--products-first-color);
 }
 
 .form-group-buy .order-area {
@@ -325,27 +326,27 @@ a:-webkit-any-link {
   resize: none;
   outline-style: none;
   box-shadow: none;
-  color: #d41443;
+  color: var(--red-text-color);
   font-family: "DM Sans", "sans-serif";
 }
 
 .form-group-buy .order-area:hover,
 .form-group-buy .order-area:focus {
-  border: 1px solid #ffb8ca;
+  border: 1px solid var(--products-first-color);
 }
 
 .form-group-buy .order-area:hover::-moz-placeholder,
 .form-group-buy .order-area:focus::-moz-placeholder {
-  color: #ffb8ca;
+  color: var(--products-first-color);
 }
 
 .form-group-buy .order-area:hover::-moz-placeholder, .form-group-buy .order-area:focus::-moz-placeholder {
-  color: #ffb8ca;
+  color: var(--products-first-color);
 }
 
 .form-group-buy .order-area:hover::placeholder,
 .form-group-buy .order-area:focus::placeholder {
-  color: #ffb8ca;
+  color: var(--products-first-color);
 }
 
 .link-hero-button {
@@ -355,11 +356,11 @@ a:-webkit-any-link {
 }
 
 .btn-products {
-  color: #fff;
+  color: var(--white-text-color);
 }
 
 .btn-about {
-  color: #d41443;
+  color: var(--red-text-color);
 }
 
 .input-icon {
@@ -371,7 +372,7 @@ a:-webkit-any-link {
 }
 
 .form-title {
-  color: #d41443;
+  color: var(--red-text-color);
   text-align: center;
   font-family: "Titan One", "sans-serif";
   font-size: 40px;
@@ -437,7 +438,7 @@ a:-webkit-any-link {
 }
 
 .form-group-buy .terms-and-conditions {
-  color: #d41443;
+  color: var(--red-text-color);
   text-decoration: underline;
   font-size: 14px;
   font-weight: 400;
@@ -457,7 +458,7 @@ a:-webkit-any-link {
   gap: 5px;
   align-items: center;
   flex-direction: column;
-  background: #ffa5ba;
+  background: var(--cream-text-color);
   border-radius: 10px;
   width: 100px;
   padding: 10px;
@@ -468,7 +469,7 @@ a:-webkit-any-link {
   gap: 5px;
   align-items: center;
   flex-direction: column;
-  background: #f0d1a5;
+  background: var(--yellow-color);
   border-radius: 10px;
   width: 100px;
   padding: 10px;
@@ -479,7 +480,7 @@ a:-webkit-any-link {
   gap: 5px;
   align-items: center;
   flex-direction: column;
-  background: #c2e297;
+  background: var(--green-color);
   border-radius: 10px;
   width: 100px;
   padding: 10px;
@@ -495,7 +496,7 @@ a:-webkit-any-link {
 }
 
 .modal-buy-item-name {
-  color: #fff;
+  color: var(--white-text-color);
 }
 
 .modal-buy-image1 {
@@ -544,7 +545,7 @@ header ul {
 header {
   height: 502px;
   width: 100%;
-  background: #ffb8ca;
+  background: var(--products-first-color);
   position: relative;
   overflow-x: hidden;
   z-index: 2;
@@ -552,7 +553,7 @@ header {
 
 .wrapper {
   width: 100%;
-  background: linear-gradient(45deg, #e17992, #ffbed1, #e17992, #f7d6b1, #e17992);
+  background: linear-gradient(45deg, var(--modal-color), #ffbed1, var(--modal-color), #f7d6b1, var(--modal-color));
   background-size: 300% 100%;
   animation: gradient 16s linear infinite;
   animation-direction: alternate;
@@ -580,12 +581,12 @@ header {
 }
 
 .submit-btn-red {
-  background: #d41443;
+  background: var(--red-text-color);
   border-radius: 22px;
   border: none;
   cursor: pointer;
   font: "DM Sans", "sans-serif";
-  color: #fff;
+  color: var(--white-text-color);
   font-weight: 700;
   text-align: center;
   height: 44px;
@@ -605,7 +606,7 @@ header {
   height: 44px;
   flex-shrink: 0;
   border-radius: 22px;
-  background: #fff;
+  background: var(--white-text-color);
   border: none;
 }
 
@@ -616,7 +617,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #d41443;
+  color: var(--red-text-color);
   text-align: center;
   font-family: "DM Sans", "sans-serif";
   font-size: 16px;
@@ -633,14 +634,14 @@ header {
 
 .submit-btn:active {
   scale: 95%;
-  background: #fff;
+  background: var(--white-text-color);
 }
 
 .submit-btn-red:hover,
 .submit-btn-red:focus {
-  color: #d41443;
-  background: #fff;
-  border: 2px solid #d41443;
+  color: var(--red-text-color);
+  background: var(--white-text-color);
+  border: 2px solid var(--red-text-color);
   transform: translateY(-3px);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -652,12 +653,12 @@ header {
 }
 
 .hero-btn {
-  background: #fff;
+  background: var(--white-text-color);
   border-radius: 22px;
   border: none;
   cursor: pointer;
   font: "DM Sans", "sans-serif";
-  color: #d41443;
+  color: var(--red-text-color);
   font-weight: 400;
   text-align: center;
   font-size: 0.6em;
@@ -681,16 +682,16 @@ header {
 
 .hero-btn:active {
   scale: 95%;
-  background: #fff;
+  background: var(--white-text-color);
 }
 
 .hero-btn-red {
-  background: #d41443;
+  background: var(--red-text-color);
   border-radius: 22px;
   border: none;
   cursor: pointer;
   font: "DM Sans", "sans-serif";
-  color: #fff;
+  color: var(--white-text-color);
   font-weight: 400;
   text-align: center;
   font-size: 0.6em;
@@ -714,7 +715,7 @@ header {
 
 .hero-btn-red:active {
   scale: 95%;
-  background: #d41443;
+  background: var(--red-text-color);
 }
 
 .arrow-icon {
@@ -736,7 +737,7 @@ header {
 
 .menu-drawer .link:hover,
 .menu-drawer .link:active {
-  color: #d41443;
+  color: var(--red-text-color);
 }
 
 .menu-drawer li {
@@ -744,7 +745,7 @@ header {
   padding: 13px 0 13px 20px;
   font-size: 1em;
   font-weight: 700;
-  color: #fff;
+  color: var(--white-text-color);
   font-family: "DM Sans", "sans-serif";
 }
 
@@ -758,7 +759,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #e17992;
+  background-color: var(--modal-color);
   opacity: 0.95;
   width: 100%;
   height: 100%;
@@ -772,7 +773,7 @@ header {
 }
 
 .js-menu-container .js-close-menu {
-  color: #fff;
+  color: var(--white-text-color);
   border: none;
   background: none;
   cursor: pointer;
@@ -783,7 +784,7 @@ header {
 
 .js-menu-container .js-close-menu:hover,
 .js-menu-container .js-close-menu:focus {
-  color: #d41443;
+  color: var(--red-text-color);
   background: none;
   box-shadow: none;
 }
@@ -810,7 +811,7 @@ header {
   border-radius: 50%;
   width: 345px;
   height: 345px;
-  background: #ffa5ba;
+  background: var(--cream-text-color);
   position: absolute;
   left: 45%;
   bottom: 75px;
@@ -849,9 +850,9 @@ header {
 /* How it's made link /button */
 /* sibbling with fixed button */
 .link-how-its-made {
-  background-color: #fff;
+  background-color: var(--white-text-color);
   border-radius: 50%;
-  box-shadow: 0 2px 4px #d41443;
+  box-shadow: 0 2px 4px var(--red-text-color);
   transition: box-shadow 0.1s linear, transform 0.1s linear;
 }
 
@@ -868,12 +869,12 @@ header {
 
 .link-how-its-made:active {
   border-radius: 35%;
-  box-shadow: 0 0 2px #d41443;
+  box-shadow: 0 0 2px var(--red-text-color);
   transform: translateY(2px) rotate(90deg);
 }
 
 .left-header-container h1 {
-  color: #fff;
+  color: var(--white-text-color);
   font-family: "Titan One", "sans-serif";
   font-size: 26px;
   font-weight: 400;
@@ -883,7 +884,7 @@ header {
 }
 
 .passion {
-  color: #d41443;
+  color: var(--red-text-color);
   font-family: "Titan One", "sans-serif";
   font-size: 48px;
   font-weight: 400;
@@ -937,7 +938,7 @@ header {
     align-items: center;
   }
   .milk-header p {
-    color: #fff;
+    color: var(--white-text-color);
     width: 124px;
     font-family: "DM Sans", "sans-serif";
     font-size: 10px;
@@ -957,7 +958,7 @@ header {
     margin-bottom: 10px;
   }
   .elipse-small {
-    background: #fff;
+    background: var(--white-text-color);
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -966,7 +967,7 @@ header {
   }
   .big-number {
     font-family: "Titan One", "sans-serif";
-    color: #d41443;
+    color: var(--red-text-color);
     font-size: 34px;
     font-weight: 400;
     letter-spacing: 1.84px;
@@ -985,7 +986,7 @@ header {
     }
   }
   .small-text {
-    color: #fff;
+    color: var(--white-text-color);
     font-family: "DM Sans", "sans-serif";
     font-size: 10px;
     font-weight: 400;
@@ -1091,7 +1092,7 @@ header {
     height: 216px;
   }
   .milk-header p {
-    color: #fff;
+    color: var(--white-text-color);
     width: 200px;
     font-family: "DM Sans", "sans-serif";
     font-size: 14px;
@@ -1139,13 +1140,13 @@ header {
   }
   .menu-pc .link:hover,
   .menu-pc .link:active {
-    color: #d41443;
+    color: var(--red-text-color);
   }
   .menu-pc li {
     padding: 13px 0 13px 20px;
     font-size: 1em;
     font-weight: 700;
-    color: #fff;
+    color: var(--white-text-color);
     font-family: "DM Sans", "sans-serif";
   }
 }
