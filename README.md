@@ -1,51 +1,79 @@
+Ice Cream 🍦
+Description 📜
+This web application was developed by a team of developers with the goal of creating an interactive platform for managing tasks and projects related to Ice Cream applications. It was a team project where each member contributed actively to building a functional and user-friendly solution, utilizing modern web development technologies.
 
-Team 9 Project is a collaborative web application developed to demonstrate teamwork and project management skills in a web development context. The project showcases a variety of web development techniques, including responsive design, interactive elements, and smooth navigation. The live demo provides a comprehensive view of the app's features, highlighting its user-friendly interface and functionality.
+The project was led by Madalina Gomei as the Team Leader, with contributions from Roxana Necșoi, Mihai Spinean, Daria Bojan, Alice Dumitru  and Richard-Iulian Purdel as developers, and Bianca-Mihaela Enasel as the Scrum Master.
 
-## Features
+Technologies Used 💻
+Frontend
+HTML5: Used for structuring the web pages.
+CSS3: Used for styling the user interface and ensuring a responsive design.
+JavaScript: Utilized to add interactive logic and dynamic page manipulation.
+Version Control & Collaboration
+Git & GitHub: Used for version control and efficient team collaboration. These tools allowed us to track changes and manage the source code in an organized and efficient manner.
+Additional Tools 🛠️
+Parcel: Used for bundling and delivering the application during development.
+Figma: Used for UI design and prototypes, helping the team create a cohesive and user-friendly design.
+Application Description 🍨
+This application is an example of collaborative development, focusing on efficient task management and user interaction in a simple and intuitive manner. It was built to be used by teams looking to manage tasks related to the production and distribution of ice cream, ensuring that all tasks are allocated and tracked effectively.
 
-- **Home Page:** Engaging landing page with an introduction to the project and highlights of its purpose and goals.
-- **Team Members:** Profiles of the team members, including their roles, skills, and contact information.
-- **Projects:** Overview of the various projects undertaken by the team, with detailed descriptions and status updates.
-- **Gallery:** Visual showcase of the team’s work through high-quality images.
-- **About Us:** Information about the team, its mission, and its values.
-- **Contact:** Contact form for users to reach out with inquiries or collaboration requests.
-- **Responsive Design:** Optimized for both desktop and mobile devices to ensure a seamless user experience across different screen sizes.
-- **Interactive Elements:** Engaging animations and interactions to enhance user engagement.
+Key Features 🔑:
+User-friendly interface: Modern, accessible, and easy-to-use design.
+Interactive functionalities: Add and edit tasks in real-time.
+Task management: Allows teams to track task progress and assign them to team members.
+Responsiveness: The application is fully responsive, ensuring an optimized experience on any device (desktop, tablet, mobile).
+How to Run the Application 🚀
+Clone this repository:
 
-## Getting Started
+bash
+Copy
+Edit
+git clone https://github.com/madalinagomei/team9-project.git
+Navigate into the project folder:
 
-To run the project locally, follow these steps:
+bash
+Copy
+Edit
+cd team9-project
+Install dependencies:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/madalinagomei/team9-project.git
-   ```
+bash
+Copy
+Edit
+npm install
+Run the application:
 
-2. **Navigate to the project directory:**
-   ```bash
-   cd team9-project
-   ```
+bash
+Copy
+Edit
+npm start
+The application will now be available at http://localhost:3000 in your browser.
 
-3. **Open `index.html` in your browser:**
-   ```bash
-   open index.html
-   ```
+Development Team 👥
+Madalina Gomei - Team Leader 💼
+Roxana Necșoi - Developer 👩‍💻
+Mihai Spinean - Developer 👨‍💻
+Daria Bojan - Developer 👩‍💻
+Alice Dumitru - Developer 👩‍💻
+Richard-Iulian Purdel - Developer 👨‍💻
+Bianca-Mihaela Enasel - Scrum Master 🧑‍💼
 
-## Usage
+Skills Demonstrated 🏆
+HTML5, CSS3, JavaScript
+Git, GitHub, JSON
+Parcel, Figma
+This project showcases the team’s ability to develop a functional and well-structured application, demonstrating a collaborative and efficient approach to development.
 
-Explore the different sections of the application:
+Contributions 🤝
+All team members contributed to the development of the application, from defining initial requirements and designing the UI/UX to implementing the application logic and final testing. Collaboration was supported using GitHub for version control and task management in an efficient manner.
 
-- **Home:** Get an overview of the project and its main objectives.
-- **Team Members:** View detailed profiles of the team members and their contributions.
-- **Projects:** Learn about the various projects the team has worked on, including descriptions and progress.
-- **Gallery:** Browse high-quality images showcasing the team's work.
-- **About Us:** Understand the team’s mission, values.
-- **Contact:** Use the contact form to send a message or inquiry.
+## 📸 Screenshots
 
-## Contributing
+![image](https://github.com/user-attachments/assets/628f6f8b-ba88-460b-a9da-72bf7afb0e3e)
+![image](https://github.com/user-attachments/assets/d6f0d8eb-a2cb-42e6-a6c1-5fda2adb0506)
+![image](https://github.com/user-attachments/assets/20e497ac-f447-45e4-9b42-dc1239897c08)
+![image](https://github.com/user-attachments/assets/500d419b-8b60-4202-9b2e-d7748ef82c0f)
 
-Contributions are welcome! If you have any suggestions, bug reports, or improvements, please submit a pull request or open an issue.
 
----
+*Example of the app.* ☀️
 
-Thank you for visiting the Team9 Project web application! If you have any questions or feedback, feel free to contact us. Enjoy exploring our work!
